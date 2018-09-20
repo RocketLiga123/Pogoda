@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Прогноз погоди</title>
+      <link rel="stylesheet" href="css\style.css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<style>
+   /* Set the size of the div element that contains the map */
+  #map {
+    height: 700px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+</style>
+  <body>
+
+    <header>
+      <div class="logo">
+        <a href="index.html"><img class="graficlogo"src="img/logo.PNG"></img></a>
+      </div>
+    </header>
+
+    <nav>
+      <div   class="topnav" id="myTopnav">
+        <a href="index.html">ГОЛОВНА</a>
+        <a href="About.html">ПРО НАС </a>
+        <a href="Kontakts.html">КОНТАКТИ</a>
+        <a href="Projects.html">ПРОЕКТИ</a>
+        <a href="Reklama.html">РЕКЛАМА</a>
+        <a href="MAP.html".html>ПОГОДА</a>
+        <a id="menu" href="#" class="icon">&#9776;</a>
+      </div>
+    </nav>
+    <main>
+     <table width=100% border="2
+     ">
+       <tr>
+         <td width=50%>
+           <h2 align="center">Карта</h2>
+           <div id="map">           </div>
+         </td>
+          <td>
+            <h2 align="center">Погода</h2>
+ <form >
+            <div id="i-have-a-tooltip"  data-description="Наприклад, Київ." align="center" class="group">
+                  <input type="text"  required>
+                  <span class="bar"></span>
+                  <label>Місто</label>
+               </div>
+               <script src="js/script.js"></script>
+               <div id="i-have-a-tooltip" data-description="Наприклад, 24.09.2018" align="center" class="group">
+                  <input type="text" id="datepicker1" required>
+                  <span class="bar"></span>
+                  <label>Дата</label>
+               </div>
+                 <div align="center"><a href="#"  id="Button12"class="knopka" id="KT" >Знайти</a></div>
+          </form>
+          </td>
+       </tr>
+      </table>
+  </br>
+    </main>
+    <footer>
+      <nav>
+        <a href="Golovna.html">Контакти</a>
+        <a href="Citys.html">Про проект</a>
+        <a href="About.html">Реклама</a>
+      </nav>
+      <div class="logo1">
+        <a href="index.html"><img class="graficlogo "src="img\logo.png" alt="7"></a>
+      </div>
+      <div class="social">
+        <a href="https://www.instagram.com/lysenko228/"><img src="img\inst.png" alt="7"></a>
+        <a href="https://plus.google.com/u/0/me?tab=mX&authuser=0"><img src="img\goo.png" alt="7"></a>
+        <a href="https://www.facebook.com/egor.lysenko.560"><img src="img\face.png" alt="7"></a>
+        <a href="https://plus.google.com/u/0/104404706587213475252?tab=mX"><img src="img\em.png" alt="7"></a>
+      </div>
+      <p>By ELPD 2018</p>
+    </footer>
+            <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = {lat: 47.8561438, lng: 35.0352693};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom:5.6, center: uluru});
+      // The marker, positioned at Uluru
+        }
+        </script>
+        <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
+        -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key&callback=initMap">
+        </script>
+        <script src="js/weather.js"></script>
+  </body>
+</html>
+
+﻿
