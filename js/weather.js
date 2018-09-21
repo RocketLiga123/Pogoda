@@ -8,10 +8,6 @@ $(document).ready(function(){
 				}
 			}
 			$('#city').html(out);
-			var Zapros = document.getElementById('Zapros');
-			var Now = new Date();
-			$('#city').html(out);
-			if (Zapros == Now){
 			$('#city p').on('click',function(){
 				$.get (
 					"http://api.openweathermap.org/data/2.5/weather",
@@ -30,9 +26,8 @@ $(document).ready(function(){
 							$('#weather').html(out);
 						}
 				);
-			});}
-			
-})
+			});
+		})
 	});
 });
 
