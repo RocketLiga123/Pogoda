@@ -6,6 +6,11 @@
       <link rel="stylesheet" href="css\style.css">
       <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
       <link href="https://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/normalize.css">
+      <link type="text/css" href="css/style.css" rel="stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+ <script src="js/mediaelement-and-player.min.js"></script>
+ <link rel="stylesheet" href="css/style.css" media="screen">
 </head>
   <body>
     <header>
@@ -13,129 +18,123 @@
         <a href="index.html"><img class="graficlogo"src="img/logo.PNG"></img></a>
       </div>
     </header>
-    <nav>
-      <div   class="topnav" id="myTopnav">
-        <a href="index.html">ГОЛОВНА</a>
-        <a href="About.html">ПРО НАС </a>
-        <a href="Kontakts.html">КОНТАКТИ</a>
-        <a href="Projects.html">ПРОЕКТИ</a>
-        <a href="Reklama.html">РЕКЛАМА</a>
-        <a href="MAP.html".html>ПОГОДА</a>
-        <a id="menu" href="#" class="icon">&#9776;</a>
-      </div>
-    </nav>
-    <main>
-      <table  width="100%" cellspacing="0" cellpadding="0" border="0" background="img\background.png" >
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td align="center">
-              
-              <div id="i-have-a-tooltip" data-description="Наприклад, 24.09.2018"  align="center" class="group">
-                  <input type="data"  id="datepicker1" maxlength="10"  required>
-                  <span class="bar"></span>
-                  <label>Дата</label>
-                        </div>
-<div class="left" align="center" >
-    <p>
-  <label for="">Страна:</label>
-  <select>
-  <option disabled selected>Выберите страну</option>
-  <option value="UA">Украина</option>
-  <option value="RU">Россия</option>
-  </select>  
-  </p>
-
-</br>
-
- <p><label  for="">Город:</label>
- <div  id="city"></div></p></div>
- </br></br>
- <div align="center" class="left">
-  <div id="weather"></div>
-  </div>      
-</br>
-
-         
-              <p align="center"> <button  id="Button12"  class="knopka" onclick="A()">Знайти</button></p>
-                                                    </form></td>
-          <td>         &#160;
-          </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
-        <tr>
-          <td>         &#160;
-        </tr>
 
 
-      </table>
-      <div class="advantages__container">
-      <div class="advantages">
-        <div class="advantages__items">
-          <img src="img\3.png" alt="3"></img>
-          <h2 >Швидкий зв'язок</h2>
-          <p>У необхідності консультації та вирішенні запитань, наші співробітники звяжуться з вами у ту же хвилину.</p>
+    <table >
+      <nav>
+        <div   class="topnav" id="myTopnav">
+
+          <ul class="menu">
+      <li><a >Нові релізи</a>
+          <ul class="submenu">
+              <li><a href="Rock.html">Рок</a></li>
+              <li><a href="Pop.html">Поп</a></li>
+              <li><a href="Hip-hop.html">Хіп-хоп</a></li>
+          </ul>
+      </li>
+      <a href="index.html">Головна</a>
+          <a href="About.html">Інформація про сайт</a>
+          <a href="Kontakts.html">Звязок</a>
+          <a href="Projects.html">Спільні проекти</a>
+          <a href="Reklama.html">Реклама</a>
+          <a href="Reklama.html">Українські групи</a>
+          <a id="menu" href="#" class="icon">&#9776;</a>
         </div>
-        <div class="advantages__items">
-          <img src="img\1.png" alt="1"></img>
-          <h2 >Простота</h2>
-          <p>Простий та сучасний дизайн</p>
-        </div>
-        <div class="advantages__items">
-          <img src="img\5.png" alt="5"></img>
-          <h2 >Найкраще обладнання</h2>
-          <p>Сучасне обладнання, яке буде мометнально завантажувати весь контент. Завдяки цьому ви зможете у ту же мить отримати весь необхідний матеріал. </p>
-        </div>
-        <div class="advantages__items">
-          <img src="img\2.png" alt="3"></img>
-          <h2 >Швидкий зв'язок</h2>
-          <p>У необхідності консультації та вирішенні запитань, наші співробітники звяжуться з вами у ту же хвилину.</p>
-        </div>
-        <div class="advantages__items">
-          <img src="img\4.png" alt="1"></img>
-          <h2 >Простота</h2>
-          <p>Простий та сучасний дизайн</p>
-        </div>
-        <div class="advantages__items">
-          <img src="img\6.png" alt="5"></img>
-          <h2 >Найкраще обладнання</h2>
-          <p>Сучасне обладнання, яке буде мометнально завантажувати весь контент. Завдяки цьому ви зможете у ту же мить отримати весь необхідний матеріал. </p>
+      </nav>
+
+  </table>
+  <br/><br/>
+<div class="container">
+  <div class="row">
+</div>
+<pre class="text" align=center>Найпопулярніші групи </pre>
+  <table width=100%; cellspacing=100px>
+    <tr>
+    <td>
+  <div >
+      <a  href="Druga.html"><img class="round"  src="https://beztabu.net/uploads/770x433_DIR/media_news/2017/12/cd13eab9694bfd10d5ce7020fe79b6c9baa28096.jpg" alt="Друга ріка" height=230px; width = 300px;   ></a>
+      <pre  class="text">               Друга ріка</pre>
+</br></br>
+      <div  class="columns large-6 text-center panel">
+          <h3> Останній трек</h3>
+
+          <div id="audio_div">
+            <audio controls class="player" preload="false" data-reactid=".0">
+            <source src="mp3\Друга ріка\druga_rika_ft_the_hardkiss_-_tak_malo_tut_tebe_(zf.fm).mp3" data-reactid=".0.0"></audio>
+                <br/><br/>
+          <ul class="text-left">
+            <li>Друга Ріка (рус. Вторая Река) — украинская рок-группа, созданная в начале 1996 года в городе Житомире.</li>
+          </ul>
         </div>
       </div>
+    </div>
+  </td>
+  <td>
+    <a href="Dzidzio.html"><img class="round"  src="https://glavcom.ua/img/article/4870/7_main.jpg" alt="dzidzyo" height=230px; width = 300px; ><a>
+    <pre  class="text">                  Dzidzyo</pre>
+</br></br>
+    <div  class="columns large-6 text-center panel">
+        <h3> Останній трек</h3>
+
+        <div id="audio_div">
+          <audio controls class="player" preload="false" data-reactid=".0">
+          <source src="mp3\Дзидзьо\dzidzo_dzidzio_-_ja_i_sara_(zf.fm).mp3" data-reactid=".0.0"></audio>
+              <br/><br/>
+        <ul class="text-left">
+          <li>«DZIDZIO» (Дзидзьо) — украинская поп-группа, основанная в 2009 году. Выступает в жанре «комедийного антигламурного попа». Использует посанские говоры украинского языка, суржик и ненормативную лексику.</li>
+        </ul>
       </div>
+    </div>
+  </div></td></tr>
+</br></br>
+  <tr>
+  <td>
+  <div >
+    <a href="Vremya.html"><img class="round"  src="http://mignews.com.ua/modules/news/images/articles/changing/22603337-vremya-i-steklo-prezentovala-novyj-klip.jpg" alt="Друга ріка" height=230px; width = 300px;></a>
+    <pre  class="text">            Время и стекло</pre>
+</br></br>
+    <div  class="columns large-6 text-center panel">
+        <h3> Останній трек</h3>
+
+        <div id="audio_div">
+          <audio controls class="player" preload="false" data-reactid=".0">
+          <source src="mp3/Время и стекло/vremya-i-steklo_-_dim.mp3" data-reactid=".0.0"></audio>
+              <br/><br/>
+        <ul class="text-left">
+          <li>«Время и Стекло» — украинская поп-группа, образованная 2 декабря 2010 года. В состав входят Алексей Завгородний (Позитив) и Надя Дорофеева (Додо). Продюсер и один из авторов песен проекта — Алексей Потапенко (Потап).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </td>
+  <td>
+  <a href="Potap.html"><img class="round"  src="https://fakty.ua/photos/article/30/38/303833w540zc0.jpg?v=062149" alt="dzidzyo" height=230px; width = 300px; ></a>
+  <pre  class="text">              Потап и Настя</pre>
+</br></br>
+  <div  class="columns large-6 text-center panel">
+      <h3> Останній трек</h3>
+
+      <div id="audio_div">
+        <audio controls class="player" preload="false" data-reactid=".0">
+        <source src="mp3/Потап и Настя/potap_i_nastja_kamenskih_-_u_nas_na_rajone_(zv.fm).mp3" data-reactid=".0.0"></audio>
+            <br/><br/>
+      <ul class="text-left">
+        <li>«Потап и Настя» — украинский дуэт, образованный в 2006 году Алексеем Потапенко и Анастасией Каменских. Продюсером, автором текстов и музыки, основным режиссёром и сценаристом клипов группы является Алексей Потапенко (Потап).</li>
+      </ul>
+    </div>
+  </div>
+  </div></td></tr></table>
+
+
+  </div>
+</td></tr>
       </main>
       <footer>
-      <nav>
-        <a href="Golovna.html">Контакти</a>
-        <a href="Citys.html">Про проект</a>
-        <a href="About.html">Реклама</a>
-      </nav>
+        <nav>
+          <a href="Kontakts.html">Контакти</a>
+          <a href="About.html">Про проект</a>
+          <a href="Reklama.html">Реклама</a>
+        </nav>
       <div class="logo1">
         <a href="index.html"><img class="graficlogo "src="img\logo.png" alt="7"></a>
       </div>
@@ -145,17 +144,13 @@
         <a href="https://www.facebook.com/egor.lysenko.560"><img src="img\face.png" alt="7"></a>
         <a href="https://plus.google.com/u/0/104404706587213475252?tab=mX"><img src="img\em.png" alt="7"></a>
       </div>
-      <p>By ELPD 2018</p>
+      <p>By ELPD 2019</p>
     </footer>
-         <script src="js/JQ.js"></script>
-          <script src="js/jquery-3.3.1.js"></script>
-        <script src="js/jquery-1.5.1.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script src="http://www.wisdomweb.ru/editor/localization.js" > </script>
-    <script src="js\script.js"></script>
-        <script src="js/weather.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+
+<script src="C:\Users\Андрей\Desktop\Pogoda\js\videoPlayer.js"></script>
 
   </body>
 </html>
